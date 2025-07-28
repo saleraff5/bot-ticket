@@ -1,0 +1,26 @@
+{
+  "name": "discord-bot-ramal",
+  "version": "1.0.0",
+  "description": "Bot de tickets profissional para Ramal Systems",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "tickets",
+    "ramal"
+  ],
+  "author": "Carlos Ramal",
+  "license": "MIT",
+  "dependencies": {
+    "cloudinary": "^1.41.3",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
